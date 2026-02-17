@@ -11,6 +11,7 @@ Actualmente curso Ingeniería de Sistemas mientras desarrollo proyectos de softw
 Integro los fundamentos de la carrera —lógica de programación, análisis matemático y diseño de algoritmos— para abordar problemas de forma analítica. Complemento esa formación académica de manera autodidacta con una ejecución pragmática orientada a las necesidades de la industria: priorizando la eficiencia, la velocidad de entrega y la aplicabilidad real de las soluciones.
 
 Mantengo un seguimiento activo del contexto empresarial: funcionamiento de mercados, productos, restricciones políticas y legales, con el objetivo de tomar mejores decisiones sobre enfoques, ideas y estrategias en proyectos actuales y futuros.
+
 ---
 
 ## 🛠 Proyectos
