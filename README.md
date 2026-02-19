@@ -6,11 +6,7 @@
 
 ---
 
-Actualmente curso Ingeniería de Sistemas mientras desarrollo proyectos de software funcionales en paralelo, con foco en **backend e inteligencia artificial aplicada**.
-
-Integro los fundamentos de la carrera —lógica de programación, análisis matemático y diseño de algoritmos— para abordar problemas de forma analítica. Complemento esa formación académica de manera autodidacta con una ejecución pragmática orientada a las necesidades de la industria: priorizando la eficiencia, la velocidad de entrega y la aplicabilidad real de las soluciones.
-
-Mantengo un seguimiento activo del contexto empresarial: funcionamiento de mercados, productos, restricciones políticas y legales, con el objetivo de tomar mejores decisiones sobre enfoques, ideas y estrategias en proyectos actuales y futuros.
+Curso Ingeniería de Sistemas con foco en backend e inteligencia artificial aplicada, con proyectos propios entregados y en producción. La carrera me da fundamentos sólidos: lógica de programación, análisis matemático y diseño de algoritmos. Los complemento de forma autodidacta con tecnologías actuales y lectura constante sobre producto, mercados y funcionamiento de empresas. La gestión de las operaciones de una PyME me permitió ganar una perspectiva de negocio y producto.
 
 ---
 
