@@ -6,7 +6,8 @@
 
 ---
 
-Curso Ingeniería de Sistemas con foco en backend e inteligencia artificial aplicada, con proyectos propios entregados y en producción. La carrera me da fundamentos sólidos: lógica de programación, análisis matemático y diseño de algoritmos. Los complemento de forma autodidacta con tecnologías actuales y lectura constante sobre producto, mercados y funcionamiento de empresas. La gestión de las operaciones de una PyME me permitió ganar una perspectiva de negocio y producto.
+Curso Ingeniería de Sistemas con foco en backend e inteligencia artificial aplicada. Desarrollo software propios entregados y actualmente en producción.
+La carrera aporta fundamentos sólidos en lógica de programación, análisis matemático y diseño de algoritmos. Los complemento de manera autodidacta con tecnologías actuales y estudio constante de producto y mercados. Junto con la gestión operativa de una PyME, consolidé un enfoque orientado a negocio, producto y equipos.
 
 ---
 
@@ -15,26 +16,22 @@ Curso Ingeniería de Sistemas con foco en backend e inteligencia artificial apli
 ### [PilatesAllCanning](https://github.com/IvanGomezDellOsa/PilatesAllCanning_App)
 `Flutter` `Python` `FastAPI` `PostgreSQL` `Firebase` `Docker`
 
-App de gestión completa para un gimnasio de pilates (franquicia). **Proyecto freelance entregado y en producción.**
-- App multiplataforma (iOS, Android, Web)
-- Backend asíncrono con reservas, validación de cupos y créditos
-- Turnos fijos con auto-booking y merge automático de cuentas
-- Notificaciones push y panel de administración
+App de gestión para gimnasio de pilates (franquicia). Proyecto freelance entregado y en producción. Incluye app multiplataforma (iOS, Android, Web), backend asíncrono con control de concurrencia para evitar doble reserva, validación de créditos, turnos fijos con auto-booking, merge automático de cuentas, notificaciones push y panel administrativo.
 
 ---
 
 ### [FaceHunt](https://github.com/IvanGomezDellOsa/FaceHunt)
 `Python` `Deep Learning`
 
-Software de análisis de video con reconocimiento facial. A partir de una foto de referencia y un video, identifica todas las apariciones de una persona y genera un índice temporal preciso.
+Software de análisis de video con reconocimiento facial basado en deep learning que identifica todas las apariciones de una persona. A partir de una foto de referencia y un video, genera un índice temporal preciso de apariciones.
 
 ---
 
 ### [FreeMagicMirror](https://github.com/IvanGomezDellOsa/FreeMagicMirror)
-`Python`
+`Python` `Kivy` `OpenCV`
 
-Aplicación de escritorio para pantallas táctiles (espejos inteligentes y fotomatones). Permite capturar fotos, personalizarlas con dibujos y stickers, y guardar los resultados.
-
+ Aplicación de escritorio diseñada para pantallas táctiles (espejos inteligentes y fotomatones), utilizada en entorno comercial. Permite captura de imágenes, personalización y almacenamiento persistente. Empaquetada como ejecutable para uso directo.
+ 
 ---
 
 ### [TexTok](https://github.com/IvanGomezDellOsa/TexTok---Universitario---Java)
