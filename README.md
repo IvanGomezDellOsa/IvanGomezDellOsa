@@ -14,7 +14,7 @@ La carrera aporta fundamentos sólidos en lógica de programación, análisis ma
 
 ## 🛠 Proyectos
 
-### [Navkok Security Group — Sitio Corporativo](https://github.com/IvanGomezDellOsa/NavkokWebSite) *(En curso)*
+### [Navkok Security Group SRL — Sitio Corporativo](https://github.com/IvanGomezDellOsa/NavkokSecurityGroup_Website) *(En curso)*
 `Next.js` `TypeScript` `Tailwind CSS`
 
 Rediseño completo del sitio corporativo de una empresa de seguridad con más de 30 años de trayectoria y certificaciones ISO 9001, 14001 y 45001. Foco en diseño de alto impacto que refleje su trayectoria y credenciales. Deploy a cargo.
