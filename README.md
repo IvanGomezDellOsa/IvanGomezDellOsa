@@ -6,7 +6,7 @@
 
 ---
 
-Curso Ingeniería de Sistemas con foco en backend e inteligencia artificial aplicada. Desarrollo proyectos propios actualmente en producción.
+Curso Ingeniería de Sistemas con foco en backend e inteligencia artificial aplicada. Tengo proyectos propios en producción y experiencia freelance entregando software a clientes reales.
 
 La carrera aporta fundamentos sólidos en lógica de programación, análisis matemático y diseño de algoritmos. Los complemento de forma autodidacta con tecnologías actuales y estudio constante de producto y mercados. En combinación con la gestión operativa de una PyME, donde desarrollé interés en la gestión de negocio, producto y equipos.
 
