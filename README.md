@@ -28,7 +28,7 @@ App de gestión multiplataforma (iOS, Android, Web) para franquicia de pilates. 
 
 ---
 
-### [InversionesArgentina](https://github.com/IvanGomezDellOsa/Inversiones_Argentina)
+### [Inversiones en Argentina](https://github.com/IvanGomezDellOsa/Inversiones_Argentina)
 `Python` `FastAPI` `Gemini API` `PostgreSQL` `GitHub Actions` `Next.js` `Telegram API`
 
 Agregador automatizado de inversiones privadas en Argentina. Flujo semanal: scraping de X vía Apify → estructuración con Gemini API + Google Search Grounding → deduplicación por comparación de vectores → publicación automática en canal de Telegram vía API → deploy en producción en Vercel.
