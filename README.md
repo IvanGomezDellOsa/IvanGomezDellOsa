@@ -28,6 +28,8 @@ La primera y única base unificada de pauta oficial argentina: **540.413 órdene
 
 Rediseño completo del sitio corporativo de una empresa de seguridad con más de 30 años de trayectoria y certificaciones ISO 9001, 14001 y 45001. Foco en diseño de alto impacto que refleje su trayectoria y credenciales. Deploy a cargo.
 
+🌐 [Navkok](https://navkok-website-private.vercel.app/)
+
 ---
 
 ### [PilatesAllCanning](https://github.com/IvanGomezDellOsa/PilatesAllCanning_App)
@@ -64,6 +66,8 @@ Aplicación de fotomatón táctil con editor multitáctil de imágenes, contador
 `Next.js` `TypeScript` `Tailwind CSS` `Framer Motion`
 
 Segunda versión del sitio comercial de Rugidos Fiestas Tandil, actualmente en producción. Rediseño completo orientado a una experiencia visual moderna: animaciones, transiciones, galería interactiva y diseño responsivo. Optimizado para performance en mobile.
+
+🌐 [rugidosfiestas.com.ar](https://www.rugidosfiestas.com.ar/)
 
 ---
 
