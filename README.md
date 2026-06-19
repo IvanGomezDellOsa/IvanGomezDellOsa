@@ -14,6 +14,15 @@ La carrera aporta fundamentos sólidos en lógica de programación, análisis ma
 
 ## 🛠 Proyectos
 
+### [Datos Pauta Oficial](https://github.com/IvanGomezDellOsa/DatosPautaOficial)
+`Python` `ETL` `SQLite` `Astro` `React` `TypeScript` `Cloudflare R2/Pages`
+
+La primera y única base unificada de pauta oficial argentina: **540.413 órdenes de publicidad** de cuatro jurisdicciones (Nación, CABA, PBA y Santa Fe), período 2003–2025, con montos deflactados por IPC para que las cifras sean comparables entre años. ETL propio en Python que incluye un **dataset exclusivo de PBA 2020–2024 reconstruido procesando más de 500 resoluciones en PDF** —datos que no existen en ningún portal de datos abiertos—. Arquitectura 100% sin backend: la base SQLite (~173 MB) vive en Cloudflare R2 y el navegador consulta solo los bytes que necesita vía HTTP Range Requests (`sql.js-httpvfs`). Costo operativo ≈ $0.
+
+🌐 [datospautaoficial.com.ar](https://datospautaoficial.com.ar)
+
+---
+
 ### [Navkok Security Group SRL — Sitio Corporativo](https://github.com/IvanGomezDellOsa/NavkokSecurityGroup_Website) *(En curso)*
 `Next.js` `TypeScript` `Tailwind CSS`
 
@@ -31,7 +40,7 @@ App de gestión multiplataforma (iOS, Android, Web) para franquicia de pilates. 
 ### [Inversiones en Argentina](https://github.com/IvanGomezDellOsa/Inversiones_Argentina)
 `Python` `FastAPI` `Gemini API` `PostgreSQL` `GitHub Actions` `Next.js` `Telegram API`
 
-Agregador automatizado de inversiones privadas en Argentina. Flujo semanal: scraping de X vía Apify → estructuración con Gemini API + Google Search Grounding → deduplicación por comparación de vectores → publicación automática en canal de Telegram vía API → deploy en producción en Vercel.
+Agregador automatizado de inversiones privadas en Argentina. Flujo semanal: scraping de X vía Apify → estructuración con Gemini API + Google Search Grounding → deduplicación semántica con pgvector → publicación automática en canal de Telegram vía API → deploy en producción en Vercel.
 
 🌐 [inversionesargentina.com.ar](https://inversionesargentina.com.ar)
 
