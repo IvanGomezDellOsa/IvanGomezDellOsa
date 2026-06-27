@@ -10,7 +10,7 @@
 
 I am studying Systems Engineering with a focus on backend and applied artificial intelligence. I have my own projects in production and freelance experience delivering software to real clients.
 
-My degree provides solid fundamentals in programming logic, mathematical analysis and algorithm design. I complement them in a self-taught way with current technologies and constant study of product and markets. In combination with the operational management of a small business (PyME), where I developed an interest in business, product and team management.
+I work in a self-taught way with current technologies and constantly study product and markets, on a foundation of solid fundamentals provided by my degree (programming logic, mathematical analysis and algorithm design). I combine this with the operational management of a small business (PyME), where I developed an interest in business, product and team management.
 
 ---
 
@@ -50,10 +50,19 @@ Automated aggregator of private investments in Argentina. Weekly flow: scraping 
 
 ---
 
+### [FaceHunt 2](https://github.com/IvanGomezDellOsa/FaceHunt-2)
+`Python` `InsightFace` `ArcFace` `ONNX Runtime` `FastAPI` `pywebview`
+
+100% local desktop app that, from one or more reference photos, uses facial recognition to detect every appearance of a person in a video (local file or YouTube URL) and returns it as exact time ranges, each with a thumbnail, an animated mini-clip and a direct jump to the moment. Evolution of my earlier project FaceHunt, which I fully rebuilt: ~10x faster (ONNX Runtime with GPU and temporal tracking), higher accuracy (ArcFace 512-d) and a one-click executable, with no server or cloud.
+
+🎬 [Demo on YouTube](https://www.youtube.com/watch?v=rJLyYJcEm7c)
+
+---
+
 ### [FaceHunt](https://github.com/IvanGomezDellOsa/FaceHunt)
 `Python` `DeepFace` `FaceNet` `RetinaFace` `FastAPI` `Docker`
 
-A facial recognition system in video with deep learning that, from a reference image, generates a precise temporal index of appearances in a local video or YouTube. It includes an API with FastAPI and a dockerized web interface deployed on Hugging Face.
+First version of FaceHunt: a deep learning facial recognition system for video, with a FastAPI API and a dockerized web interface deployed on Hugging Face. I later fully rebuilt it as FaceHunt 2 (above), ~10x faster and more accurate.
 
 ---
 
