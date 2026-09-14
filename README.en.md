@@ -25,8 +25,6 @@ The project comes from putting two facts together. An AI that simulates a real p
 
 Putting those facts together was the starting point, not the result. The RAG pipeline is written from scratch: hybrid retrieval, a filter that decides whether the notebooks cover the subject, and a check that every quotation exists in the original passage. With the same model and the same questions, an AI acting as Leonardo makes up **96.9%** of its quotations (156 of 161); Ask Leonardo da Vinci, **0 of 187**. It also includes a 3D library, a 3D virtual museum and a vector space that shows how a question finds its passages. Operating cost: US$0.
 
-<a href="https://www.askleonardodavinci.online/en"><img src="https://raw.githubusercontent.com/IvanGomezDellOsa/Ask_Leonardo_da_Vinci/main/.github/readme/codice-en.webp" alt="The codex: the subject map on the left and an answer from Leonardo with a verbatim quotation and its sources" width="100%"></a>
-
 🌐 [askleonardodavinci.online](https://www.askleonardodavinci.online/en) (EN / ES)
 
 ---

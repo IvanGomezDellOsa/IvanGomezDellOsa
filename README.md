@@ -25,8 +25,6 @@ El proyecto nace de cruzar dos datos. Una IA que simula ser una persona real inv
 
 Cruzar esos datos fue el punto de partida, no el resultado. El pipeline RAG está escrito desde cero: recuperación híbrida, un filtro que decide si los cuadernos tratan el tema y la comprobación de que cada cita exista en el pasaje original. Con el mismo modelo y las mismas preguntas, una IA actuando como Leonardo inventa el **96,9%** de sus citas (156 de 161); Ask Leonardo da Vinci, **0 de 187**. Incluye además una biblioteca 3D, un museo virtual 3D y un espacio vectorial que muestra cómo una pregunta encuentra sus pasajes. Costo de operación: US$0.
 
-<a href="https://www.askleonardodavinci.online"><img src="https://raw.githubusercontent.com/IvanGomezDellOsa/Ask_Leonardo_da_Vinci/main/.github/readme/codice-es.webp" alt="El códice: mapa de temas a la izquierda y una respuesta de Leonardo con una cita textual y sus fuentes" width="100%"></a>
-
 🌐 [askleonardodavinci.online](https://www.askleonardodavinci.online) (ES / EN)
 
 ---
