@@ -41,7 +41,7 @@ La primera y única base unificada de pauta oficial argentina: **540.413 órdene
 ### [Navkok Security Group SRL — Sitio Corporativo](https://github.com/IvanGomezDellOsa/NavkokSecurityGroup_Website)
 `Next.js` `TypeScript` `Tailwind CSS`
 
-Proyecto freelance: rediseño completo del sitio corporativo de una empresa de seguridad con más de 30 años de trayectoria y certificaciones ISO 9001, 14001 y 45001. Lo desarrollé de punta a punta, con foco en un diseño de alto impacto que transmita su experiencia y sus credenciales.
+Proyecto freelance: rediseño completo del sitio corporativo de una empresa de seguridad con más de 30 años de trayectoria y certificaciones ISO 9001, 14001 y 45001. Lo desarrollé de punta a punta —arquitectura de información, diseño UX/UI, redacción de los textos institucionales y desarrollo—, con foco en un diseño de alto impacto que transmita su experiencia y sus credenciales.
 
 🌐 [Vista previa del sitio](https://navkok-website-private.vercel.app/)
 
@@ -57,9 +57,9 @@ App de gestión multiplataforma (iOS, Android, Web) para una franquicia de pilat
 ---
 
 ### [Inversiones en Argentina](https://github.com/IvanGomezDellOsa/Inversiones_Argentina)
-`Python` `FastAPI` `Gemini API` `PostgreSQL` `GitHub Actions` `Next.js` `Telegram API`
+`Python` `FastAPI` `Gemini API` `Jev (TypeSafe)` `PostgreSQL` `pgvector` `GitHub Actions` `Next.js` `Telegram API`
 
-Reúne en una cronología las inversiones privadas realizadas o anunciadas en Argentina. Cada 72 horas corre un flujo automatizado en GitHub Actions: scraping de X vía Apify → estructuración con Gemini API + Google Search Grounding → deduplicación semántica con pgvector → publicación automática en la web y en un canal de Telegram. API en FastAPI y frontend en Next.js, desplegados en Vercel.
+Reúne en una cronología las inversiones privadas realizadas o anunciadas en Argentina, un dato que estaba disperso en noticias, cuentas de X y registros oficiales. Cada 72 horas, un flujo en GitHub Actions recolecta de cuatro tipos de fuente —cuentas de X vía Apify, seis medios por RSS, el registro oficial RIGI del Ministerio de Economía y Google con Gemini Search Grounding— y Gemini estructura cada inversión. La decisión final no la toma el modelo generativo: Gemini no ve la base, así que filtros deterministas y **Jev**, que devuelve decisiones tipadas con probabilidad calibrada, descartan lo que no corresponde y resuelven, sobre los candidatos que recupera pgvector, si dos noticias hablan del mismo proyecto — **el rediseño pasó de detectar 0 de 12 duplicados reales a 10, sin falsos positivos**. Publicación automática en la web y en Telegram, con API en FastAPI y frontend en Next.js con render en servidor, en Vercel.
 
 🌐 [inversionesargentina.com.ar](https://inversionesargentina.com.ar)
 
