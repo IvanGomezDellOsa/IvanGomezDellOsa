@@ -27,6 +27,8 @@ Putting those facts together was the starting point, not the result. The RAG pip
 
 🌐 [askleonardodavinci.online](https://www.askleonardodavinci.online/en) (EN / ES)
 
+🎬 [Video on YouTube](https://youtu.be/35xaHDucoX8)
+
 ---
 
 ### [Datos Pauta Oficial](https://github.com/IvanGomezDellOsa/DatosPautaOficial)
@@ -35,6 +37,8 @@ Putting those facts together was the starting point, not the result. The RAG pip
 The first and only unified database of Argentine official advertising spending: **540,413 advertising orders** from four jurisdictions (Nación, CABA, PBA and Santa Fe), covering 2003–2025, with amounts adjusted for inflation (CPI) so the figures are comparable across years. A custom ETL in Python that includes an **exclusive PBA 2020–2024 dataset reconstructed by processing more than 500 PDF resolutions** (data that does not exist in any open data portal). A 100% backendless architecture: the SQLite database (~173 MB) lives on Cloudflare R2 and the browser queries only the bytes it needs via HTTP Range Requests (`sql.js-httpvfs`). Operating cost: US$0.
 
 🌐 [datospautaoficial.com.ar](https://datospautaoficial.com.ar)
+
+🎬 [Video on YouTube](https://youtu.be/o8Ht_Qv4Ji4)
 
 ---
 
@@ -52,7 +56,7 @@ Freelance project: a complete redesign of the corporate website of a security co
 
 A multiplatform management app (iOS, Android, Web) for a pilates franchise. A freelance project delivered and in production. Async backend with concurrency control to prevent double booking, credit validation, fixed slots with auto-booking, automatic account merging, push notifications and an administration panel. Deployed on a VPS with an operating cost of about US$4 per month.
 
-🎬 [Demo on YouTube](https://www.youtube.com/watch?v=EVlTbLLV_NU)
+🎬 [Video on YouTube](https://www.youtube.com/watch?v=nI6Iz2L-hFs)
 
 ---
 
@@ -63,6 +67,8 @@ The private investments announced in Argentina were scattered across news outlet
 
 🌐 [inversionesargentina.com.ar](https://inversionesargentina.com.ar)
 
+🎬 [Video on YouTube](https://youtu.be/aFhefFVcW4M)
+
 ---
 
 ### [FaceHunt 2](https://github.com/IvanGomezDellOsa/FaceHunt-2)
@@ -70,7 +76,7 @@ The private investments announced in Argentina were scattered across news outlet
 
 100% local desktop app that, from one or more reference photos, uses facial recognition to detect every appearance of a person in a video (local file or YouTube URL). Each one is returned as an exact time range, with a thumbnail, an animated mini-clip and a direct jump to the moment. Evolution of my earlier project FaceHunt, which I fully rebuilt: ~10x faster (ONNX Runtime with GPU and temporal tracking), higher accuracy (ArcFace 512-d) and a one-click executable, with no server or cloud.
 
-🎬 [Demo on YouTube](https://www.youtube.com/watch?v=rJLyYJcEm7c)
+🎬 [Video on YouTube](https://www.youtube.com/watch?v=huNRQiAW_ss)
 
 **First version: [FaceHunt](https://github.com/IvanGomezDellOsa/FaceHunt) (2025)** · `Python` `DeepFace` `FaceNet` `RetinaFace` `FastAPI` `Docker`<br>
 A deep learning facial recognition system for video, with a FastAPI API and a dockerized web interface deployed on Hugging Face.
@@ -84,6 +90,8 @@ A Chrome extension, published on the Chrome Web Store, that replaces the new tab
 
 🧩 [Chrome Web Store](https://chromewebstore.google.com/detail/mementolife/eackmngdibobdeciapcedkmjoecaiblp)
 
+🎬 [Video on YouTube](https://youtu.be/tZbJvq8xoBk)
+
 ---
 
 ### [FreeMagicMirror](https://github.com/IvanGomezDellOsa/FreeMagicMirror)
@@ -91,7 +99,7 @@ A Chrome extension, published on the Chrome Web Store, that replaces the new tab
 
 A touch photobooth application with a multitouch image editor, animated countdown and kiosk mode. Deployed in a real commercial environment and distributed as a portable executable (.exe) with no external dependencies.
 
-🎬 [Demo on YouTube](https://www.youtube.com/watch?v=V_Qmx1kqg2M)
+🎬 [Video on YouTube](https://www.youtube.com/watch?v=UjSz98p7nPk)
 
 ---
 

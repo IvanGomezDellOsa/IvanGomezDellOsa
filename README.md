@@ -27,6 +27,8 @@ Cruzar esos datos fue el punto de partida, no el resultado. El pipeline RAG est�
 
 🌐 [askleonardodavinci.online](https://www.askleonardodavinci.online) (ES / EN)
 
+🎬 [Video en YouTube](https://youtu.be/35xaHDucoX8)
+
 ---
 
 ### [Datos Pauta Oficial](https://github.com/IvanGomezDellOsa/DatosPautaOficial)
@@ -35,6 +37,8 @@ Cruzar esos datos fue el punto de partida, no el resultado. El pipeline RAG est�
 La primera y única base unificada de pauta oficial argentina: **540.413 órdenes de publicidad** de cuatro jurisdicciones (Nación, CABA, PBA y Santa Fe), período 2003–2025, con montos deflactados por IPC para que las cifras sean comparables entre años. ETL propio en Python que incluye un **dataset exclusivo de PBA 2020–2024 reconstruido procesando más de 500 resoluciones en PDF** (datos que no existen en ningún portal de datos abiertos). Arquitectura 100% sin backend: la base SQLite (~173 MB) vive en Cloudflare R2 y el navegador consulta solo los bytes que necesita vía HTTP Range Requests (`sql.js-httpvfs`). Costo de operación: US$0.
 
 🌐 [datospautaoficial.com.ar](https://datospautaoficial.com.ar)
+
+🎬 [Video en YouTube](https://youtu.be/o8Ht_Qv4Ji4)
 
 ---
 
@@ -52,7 +56,7 @@ Proyecto freelance: rediseño completo del sitio corporativo de una empresa de s
 
 App de gestión multiplataforma (iOS, Android, Web) para una franquicia de pilates. Proyecto freelance entregado y en producción. Backend asíncrono con control de concurrencia para evitar doble reserva, validación de créditos, turnos fijos con auto-booking, unificación automática de cuentas, notificaciones push y panel administrativo. Deploy en VPS con un costo de operación de unos US$4 por mes.
 
-🎬 [Demo en YouTube](https://www.youtube.com/watch?v=EVlTbLLV_NU)
+🎬 [Video en YouTube](https://www.youtube.com/watch?v=nI6Iz2L-hFs)
 
 ---
 
@@ -63,6 +67,8 @@ Las inversiones privadas que se anuncian en Argentina estaban dispersas en notic
 
 🌐 [inversionesargentina.com.ar](https://inversionesargentina.com.ar)
 
+🎬 [Video en YouTube](https://youtu.be/aFhefFVcW4M)
+
 ---
 
 ### [FaceHunt 2](https://github.com/IvanGomezDellOsa/FaceHunt-2)
@@ -70,7 +76,7 @@ Las inversiones privadas que se anuncian en Argentina estaban dispersas en notic
 
 Aplicación de escritorio 100% local que, a partir de una o varias fotos de referencia, usa reconocimiento facial para detectar cada aparición de una persona en un video (archivo local o URL de YouTube). Cada una se devuelve como un rango de tiempo exacto, con miniatura, mini-clip animado y salto directo al momento. Evolución de mi proyecto anterior FaceHunt, que reconstruí por completo: ~10x más rápido (ONNX Runtime con GPU y tracking temporal), mayor precisión (ArcFace 512-d) y ejecutable de un clic, sin servidor ni nube.
 
-🎬 [Demo en YouTube](https://www.youtube.com/watch?v=rJLyYJcEm7c)
+🎬 [Video en YouTube](https://www.youtube.com/watch?v=huNRQiAW_ss)
 
 **Primera versión: [FaceHunt](https://github.com/IvanGomezDellOsa/FaceHunt) (2025)** · `Python` `DeepFace` `FaceNet` `RetinaFace` `FastAPI` `Docker`<br>
 Sistema de reconocimiento facial en video con deep learning, con API en FastAPI e interfaz web dockerizada desplegada en Hugging Face.
@@ -84,6 +90,8 @@ Extensión de Chrome, publicada en la Chrome Web Store, que reemplaza la pestañ
 
 🧩 [Chrome Web Store](https://chromewebstore.google.com/detail/mementolife/eackmngdibobdeciapcedkmjoecaiblp)
 
+🎬 [Video en YouTube](https://youtu.be/tZbJvq8xoBk)
+
 ---
 
 ### [FreeMagicMirror](https://github.com/IvanGomezDellOsa/FreeMagicMirror)
@@ -91,7 +99,7 @@ Extensión de Chrome, publicada en la Chrome Web Store, que reemplaza la pestañ
 
 Aplicación de fotomatón táctil con editor multitáctil de imágenes, cuenta regresiva animada y modo kiosco. Desplegada en entorno comercial real y distribuida como ejecutable (.exe) portable sin dependencias externas.
 
-🎬 [Demo en YouTube](https://www.youtube.com/watch?v=V_Qmx1kqg2M)
+🎬 [Video en YouTube](https://www.youtube.com/watch?v=UjSz98p7nPk)
 
 ---
 
