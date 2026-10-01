@@ -27,7 +27,7 @@ Cruzar esos datos fue el punto de partida, no el resultado. El pipeline RAG est�
 
 🌐 [askleonardodavinci.online](https://www.askleonardodavinci.online) (ES / EN)
 
-🎬 [Video en YouTube](https://youtu.be/35xaHDucoX8)
+🎬 [Video de presentación](https://youtu.be/35xaHDucoX8)
 
 ---
 
@@ -38,7 +38,7 @@ La primera y única base unificada de pauta oficial argentina: **540.413 órdene
 
 🌐 [datospautaoficial.com.ar](https://datospautaoficial.com.ar)
 
-🎬 [Video en YouTube](https://youtu.be/o8Ht_Qv4Ji4)
+🎬 [Video de presentación](https://youtu.be/o8Ht_Qv4Ji4)
 
 ---
 
@@ -56,7 +56,7 @@ Proyecto freelance: rediseño completo del sitio corporativo de una empresa de s
 
 App de gestión multiplataforma (iOS, Android, Web) para una franquicia de pilates. Proyecto freelance entregado y en producción. Backend asíncrono con control de concurrencia para evitar doble reserva, validación de créditos, turnos fijos con auto-booking, unificación automática de cuentas, notificaciones push y panel administrativo. Deploy en VPS con un costo de operación de unos US$4 por mes.
 
-🎬 [Video en YouTube](https://www.youtube.com/watch?v=nI6Iz2L-hFs)
+🎬 [Video de presentación](https://www.youtube.com/watch?v=nI6Iz2L-hFs)
 
 ---
 
@@ -67,7 +67,7 @@ Las inversiones privadas que se anuncian en Argentina estaban dispersas en notic
 
 🌐 [inversionesargentina.com.ar](https://inversionesargentina.com.ar)
 
-🎬 [Video en YouTube](https://youtu.be/aFhefFVcW4M)
+🎬 [Video de presentación](https://youtu.be/aFhefFVcW4M)
 
 ---
 
@@ -76,7 +76,7 @@ Las inversiones privadas que se anuncian en Argentina estaban dispersas en notic
 
 Aplicación de escritorio 100% local que, a partir de una o varias fotos de referencia, usa reconocimiento facial para detectar cada aparición de una persona en un video (archivo local o URL de YouTube). Cada una se devuelve como un rango de tiempo exacto, con miniatura, mini-clip animado y salto directo al momento. Evolución de mi proyecto anterior FaceHunt, que reconstruí por completo: ~10x más rápido (ONNX Runtime con GPU y tracking temporal), mayor precisión (ArcFace 512-d) y ejecutable de un clic, sin servidor ni nube.
 
-🎬 [Video en YouTube](https://www.youtube.com/watch?v=huNRQiAW_ss)
+🎬 [Video de presentación](https://www.youtube.com/watch?v=huNRQiAW_ss)
 
 **Primera versión: [FaceHunt](https://github.com/IvanGomezDellOsa/FaceHunt) (2025)** · `Python` `DeepFace` `FaceNet` `RetinaFace` `FastAPI` `Docker`<br>
 Sistema de reconocimiento facial en video con deep learning, con API en FastAPI e interfaz web dockerizada desplegada en Hugging Face.
@@ -90,7 +90,7 @@ Extensión de Chrome, publicada en la Chrome Web Store, que reemplaza la pestañ
 
 🧩 [Chrome Web Store](https://chromewebstore.google.com/detail/mementolife/eackmngdibobdeciapcedkmjoecaiblp)
 
-🎬 [Video en YouTube](https://youtu.be/tZbJvq8xoBk)
+🎬 [Video de presentación](https://youtu.be/tZbJvq8xoBk)
 
 ---
 
@@ -99,7 +99,7 @@ Extensión de Chrome, publicada en la Chrome Web Store, que reemplaza la pestañ
 
 Aplicación de fotomatón táctil con editor multitáctil de imágenes, cuenta regresiva animada y modo kiosco. Desplegada en entorno comercial real y distribuida como ejecutable (.exe) portable sin dependencias externas.
 
-🎬 [Video en YouTube](https://www.youtube.com/watch?v=UjSz98p7nPk)
+🎬 [Video de presentación](https://www.youtube.com/watch?v=UjSz98p7nPk)
 
 ---
 
