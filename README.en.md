@@ -3,14 +3,14 @@
 <h1 align="center">Iván Gómez Dell'Osa</h1>
 
 <p align="center">
-  <em>Systems Engineering · Backend · Applied Artificial Intelligence</em>
+  <em>Full Stack Developer · Backend · Applied Artificial Intelligence</em>
 </p>
 
 ---
 
-I am studying Systems Engineering with a focus on backend and applied artificial intelligence. I have my own projects in production and freelance experience delivering software to real clients.
+I build complete software products, from design to production, with a focus on backend and applied artificial intelligence. I have personal and freelance projects in production, with real clients and users.
 
-I am self-taught in current technologies and constantly study product and markets, building on the foundation my degree gives me (programming logic, mathematical analysis and algorithm design). I combine this with running the operations of a small business, where I am gaining knowledge of business administration, product and team management.
+Building on the foundation my Systems Engineering studies give me (programming logic, mathematical analysis and algorithm design), I teach myself current technologies. I combine this with running the operations of a small business, where I am gaining knowledge of business administration, product and team management.
 
 ---
 
@@ -31,35 +31,6 @@ Putting those facts together was the starting point, not the result. The RAG pip
 
 ---
 
-### [Datos Pauta Oficial](https://github.com/IvanGomezDellOsa/DatosPautaOficial)
-`Python` `ETL` `SQLite` `Astro` `React` `TypeScript` `Cloudflare R2/Pages`
-
-The first and only unified database of Argentine official advertising spending: **540,413 advertising orders** from four jurisdictions (Nación, CABA, PBA and Santa Fe), covering 2003–2025, with amounts adjusted for inflation (CPI) so the figures are comparable across years. A custom ETL in Python that includes an **exclusive PBA 2020–2024 dataset reconstructed by processing more than 500 PDF resolutions** (data that does not exist in any open data portal). A 100% backendless architecture: the SQLite database (~173 MB) lives on Cloudflare R2 and the browser queries only the bytes it needs via HTTP Range Requests (`sql.js-httpvfs`). Operating cost: US$0.
-
-🌐 [datospautaoficial.com.ar](https://datospautaoficial.com.ar)
-
-🎬 [Presentation video](https://youtu.be/o8Ht_Qv4Ji4)
-
----
-
-### [Navkok Security Group SRL — Corporate Website](https://github.com/IvanGomezDellOsa/NavkokSecurityGroup_Website)
-`Next.js` `TypeScript` `Tailwind CSS`
-
-Freelance project: a complete redesign of the corporate website of a security company with over 30 years of experience and ISO 9001, 14001 and 45001 certifications. I built it end to end — information architecture, UX/UI design, copywriting and development — with a focus on high-impact design that conveys its track record and credentials.
-
-🌐 [Site preview](https://navkok-website-private.vercel.app/)
-
----
-
-### [PilatesAllCanning](https://github.com/IvanGomezDellOsa/PilatesAllCanning_App)
-`Flutter` `Python` `FastAPI` `PostgreSQL` `Firebase` `Docker`
-
-A multiplatform management app (iOS, Android, Web) for a pilates franchise. A freelance project delivered and in production. Async backend with concurrency control to prevent double booking, credit validation, fixed slots with auto-booking, automatic account merging, push notifications and an administration panel. Deployed on a VPS with an operating cost of about US$4 per month.
-
-🎬 [Presentation video](https://www.youtube.com/watch?v=nI6Iz2L-hFs)
-
----
-
 ### [Inversiones en Argentina](https://github.com/IvanGomezDellOsa/Inversiones_Argentina)
 `Python` `FastAPI` `Gemini API` `Jev (TypeSafe)` `PostgreSQL` `pgvector` `GitHub Actions` `Next.js` `Telegram API`
 
@@ -71,15 +42,44 @@ The private investments announced in Argentina were scattered across news outlet
 
 ---
 
+### [Datos Pauta Oficial](https://github.com/IvanGomezDellOsa/DatosPautaOficial)
+`Python` `ETL` `SQLite` `Astro` `React` `TypeScript` `Cloudflare R2/Pages`
+
+The first and only unified database of Argentine official advertising spending: **540,413 advertising orders** from four jurisdictions (Nación, CABA, PBA and Santa Fe), covering 2003–2025, with amounts adjusted for inflation (CPI) so the figures are comparable across years. A custom ETL in Python that includes an **exclusive PBA 2020–2024 dataset reconstructed by processing more than 500 PDF resolutions** (data that does not exist in any open data portal). A 100% backendless architecture: the SQLite database (~173 MB) lives on Cloudflare R2 and the browser queries only the bytes it needs via HTTP Range Requests (`sql.js-httpvfs`). Operating cost: US$0.
+
+🌐 [datospautaoficial.com.ar](https://datospautaoficial.com.ar)
+
+🎬 [Presentation video](https://youtu.be/o8Ht_Qv4Ji4)
+
+---
+
 ### [FaceHunt 2](https://github.com/IvanGomezDellOsa/FaceHunt-2)
 `Python` `InsightFace` `ArcFace` `ONNX Runtime` `FastAPI` `pywebview`
 
-100% local desktop app that, from one or more reference photos, uses facial recognition to detect every appearance of a person in a video (local file or YouTube URL). Each one is returned as an exact time range, with a thumbnail, an animated mini-clip and a direct jump to the moment. Evolution of my earlier project FaceHunt, which I fully rebuilt: ~10x faster (ONNX Runtime with GPU and temporal tracking), higher accuracy (ArcFace 512-d) and a one-click executable, with no server or cloud.
+100% local desktop app that, from one or more reference photos, uses facial recognition to detect every appearance of a person in a video (local file or YouTube URL). Each one is returned as an exact time range, with a thumbnail, an animated mini-clip and a direct jump to the moment. Evolution of my earlier project FaceHunt, which I fully rebuilt: it moved from TensorFlow on CPU to ONNX Runtime on GPU and from FaceNet (128 dimensions) to ArcFace (512), with cross-frame tracking that recovers appearances with the face in profile, partially covered or at low resolution. It runs from a one-click executable, with no server or cloud.
 
 🎬 [Presentation video](https://www.youtube.com/watch?v=huNRQiAW_ss)
 
 **First version: [FaceHunt](https://github.com/IvanGomezDellOsa/FaceHunt) (2025)** · `Python` `DeepFace` `FaceNet` `RetinaFace` `FastAPI` `Docker`<br>
-A deep learning facial recognition system for video, with a FastAPI API and a dockerized web interface deployed on Hugging Face.
+A deep learning facial recognition system for video, with a FastAPI API and a web interface in Docker.
+
+---
+
+### [SeViVe (formerly Pilates All Canning)](https://github.com/IvanGomezDellOsa/PilatesAllCanning_App)
+`Flutter` `Python` `FastAPI` `PostgreSQL` `Firebase` `Docker` `Nginx`
+
+Freelance project: a booking and management application for a pilates studio (franchise), with more than 200 users. I built it as the sole developer, from client acquisition and requirements definition to production launch. Bookings with concurrency control to prevent overbooking, expiring credits, recurring slots with automatic booking and a calendar with configurable holidays. Accounts created by the administration merge automatically with the student's own account at sign-up (by national ID), preserving history, credits and slots. Asynchronous backend with Python, FastAPI and PostgreSQL; Flutter application installable as a PWA, with Google sign-in through Firebase. Docker Compose and Nginx on a self-managed VPS. Since development ended, I remain responsible for support, server administration and client-requested updates.
+
+🎬 [Presentation video](https://www.youtube.com/watch?v=nI6Iz2L-hFs)
+
+---
+
+### [Navkok Security Group SRL · Corporate Website](https://github.com/IvanGomezDellOsa/NavkokSecurityGroup_Website)
+`Next.js` `TypeScript` `Tailwind CSS`
+
+Freelance project: a complete redesign of the corporate website of a security company with over 30 years of experience and ISO 9001, 14001 and 45001 certifications. I built it end to end (information architecture, UX/UI design, copywriting and development), with a focus on high-impact design that conveys its track record and credentials.
+
+🌐 [Site preview](https://navkok-website-private.vercel.app/)
 
 ---
 
@@ -112,13 +112,6 @@ Second version of the commercial website of Rugidos Fiestas Tandil, currently in
 
 **First version: [RugidosWebSite 2023 (Legacy)](https://github.com/IvanGomezDellOsa/RugidosWebSite-2023-Legacy)** · `HTML5` `CSS3` `JavaScript`<br>
 In production from 2023 until it was replaced by the current version. Built without frameworks, with automatic deploy to cPanel.
-
----
-
-### [TexTok](https://github.com/IvanGomezDellOsa/TexTok---Universitario---Java)
-`Java`
-
-A data management engine in pure Java, built as a university project. Implements from scratch a BST, singly and doubly linked lists, cross references, recursion and binary file persistence, with no frameworks or java.util.
 
 ---
 

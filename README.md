@@ -3,14 +3,14 @@
 <h1 align="center">Iván Gómez Dell'Osa</h1>
 
 <p align="center">
-  <em>Ingeniería de Sistemas · Backend · Inteligencia Artificial Aplicada</em>
+  <em>Full Stack Developer · Backend · Inteligencia Artificial Aplicada</em>
 </p>
 
 ---
 
-Curso Ingeniería de Sistemas con foco en backend e inteligencia artificial aplicada. Tengo proyectos propios en producción y experiencia freelance entregando software a clientes reales.
+Desarrollo productos de software completos, desde el diseño hasta la puesta en producción, con foco en backend e inteligencia artificial aplicada. Tengo proyectos propios y freelance en producción, con clientes y usuarios reales.
 
-Trabajo de forma autodidacta con tecnologías actuales y estudio constante de producto y mercados, sobre la base que me da la carrera (lógica de programación, análisis matemático y diseño de algoritmos). Lo combino con la gestión operativa de una PyME, donde sumo conocimientos de administración de empresas, producto y manejo de equipos.
+Sobre la base que me da la carrera de Ingeniería de Sistemas (lógica de programación, análisis matemático y diseño de algoritmos), trabajo de forma autodidacta con tecnologías actuales. Lo combino con la gestión operativa de una PyME, donde sumo conocimientos de administración de empresas, producto y manejo de equipos.
 
 ---
 
@@ -31,35 +31,6 @@ Cruzar esos datos fue el punto de partida, no el resultado. El pipeline RAG est�
 
 ---
 
-### [Datos Pauta Oficial](https://github.com/IvanGomezDellOsa/DatosPautaOficial)
-`Python` `ETL` `SQLite` `Astro` `React` `TypeScript` `Cloudflare R2/Pages`
-
-La primera y única base unificada de pauta oficial argentina: **540.413 órdenes de publicidad** de cuatro jurisdicciones (Nación, CABA, PBA y Santa Fe), período 2003–2025, con montos deflactados por IPC para que las cifras sean comparables entre años. ETL propio en Python que incluye un **dataset exclusivo de PBA 2020–2024 reconstruido procesando más de 500 resoluciones en PDF** (datos que no existen en ningún portal de datos abiertos). Arquitectura 100% sin backend: la base SQLite (~173 MB) vive en Cloudflare R2 y el navegador consulta solo los bytes que necesita vía HTTP Range Requests (`sql.js-httpvfs`). Costo de operación: US$0.
-
-🌐 [datospautaoficial.com.ar](https://datospautaoficial.com.ar)
-
-🎬 [Video de presentación](https://youtu.be/o8Ht_Qv4Ji4)
-
----
-
-### [Navkok Security Group SRL — Sitio Corporativo](https://github.com/IvanGomezDellOsa/NavkokSecurityGroup_Website)
-`Next.js` `TypeScript` `Tailwind CSS`
-
-Proyecto freelance: rediseño completo del sitio corporativo de una empresa de seguridad con más de 30 años de trayectoria y certificaciones ISO 9001, 14001 y 45001. Lo desarrollé de punta a punta —arquitectura de información, diseño UX/UI, redacción de los textos institucionales y desarrollo—, con foco en un diseño de alto impacto que transmita su experiencia y sus credenciales.
-
-🌐 [Vista previa del sitio](https://navkok-website-private.vercel.app/)
-
----
-
-### [PilatesAllCanning](https://github.com/IvanGomezDellOsa/PilatesAllCanning_App)
-`Flutter` `Python` `FastAPI` `PostgreSQL` `Firebase` `Docker`
-
-App de gestión multiplataforma (iOS, Android, Web) para una franquicia de pilates. Proyecto freelance entregado y en producción. Backend asíncrono con control de concurrencia para evitar doble reserva, validación de créditos, turnos fijos con auto-booking, unificación automática de cuentas, notificaciones push y panel administrativo. Deploy en VPS con un costo de operación de unos US$4 por mes.
-
-🎬 [Video de presentación](https://www.youtube.com/watch?v=nI6Iz2L-hFs)
-
----
-
 ### [Inversiones en Argentina](https://github.com/IvanGomezDellOsa/Inversiones_Argentina)
 `Python` `FastAPI` `Gemini API` `Jev (TypeSafe)` `PostgreSQL` `pgvector` `GitHub Actions` `Next.js` `Telegram API`
 
@@ -71,15 +42,44 @@ Las inversiones privadas que se anuncian en Argentina estaban dispersas en notic
 
 ---
 
+### [Datos Pauta Oficial](https://github.com/IvanGomezDellOsa/DatosPautaOficial)
+`Python` `ETL` `SQLite` `Astro` `React` `TypeScript` `Cloudflare R2/Pages`
+
+La primera y única base unificada de pauta oficial argentina: **540.413 órdenes de publicidad** de cuatro jurisdicciones (Nación, CABA, PBA y Santa Fe), período 2003–2025, con montos deflactados por IPC para que las cifras sean comparables entre años. ETL propio en Python que incluye un **dataset exclusivo de PBA 2020–2024 reconstruido procesando más de 500 resoluciones en PDF** (datos que no existen en ningún portal de datos abiertos). Arquitectura 100% sin backend: la base SQLite (~173 MB) vive en Cloudflare R2 y el navegador consulta solo los bytes que necesita vía HTTP Range Requests (`sql.js-httpvfs`). Costo de operación: US$0.
+
+🌐 [datospautaoficial.com.ar](https://datospautaoficial.com.ar)
+
+🎬 [Video de presentación](https://youtu.be/o8Ht_Qv4Ji4)
+
+---
+
 ### [FaceHunt 2](https://github.com/IvanGomezDellOsa/FaceHunt-2)
 `Python` `InsightFace` `ArcFace` `ONNX Runtime` `FastAPI` `pywebview`
 
-Aplicación de escritorio 100% local que, a partir de una o varias fotos de referencia, usa reconocimiento facial para detectar cada aparición de una persona en un video (archivo local o URL de YouTube). Cada una se devuelve como un rango de tiempo exacto, con miniatura, mini-clip animado y salto directo al momento. Evolución de mi proyecto anterior FaceHunt, que reconstruí por completo: ~10x más rápido (ONNX Runtime con GPU y tracking temporal), mayor precisión (ArcFace 512-d) y ejecutable de un clic, sin servidor ni nube.
+Aplicación de escritorio 100% local que, a partir de una o varias fotos de referencia, usa reconocimiento facial para detectar cada aparición de una persona en un video (archivo local o URL de YouTube). Cada una se devuelve como un rango de tiempo exacto, con miniatura, mini-clip animado y salto directo al momento. Evolución de mi proyecto anterior FaceHunt, que reconstruí por completo: pasó de TensorFlow en CPU a ONNX Runtime con GPU y de FaceNet (128 dimensiones) a ArcFace (512), con seguimiento entre cuadros que recupera apariciones con el rostro de perfil, parcialmente cubierto o en baja resolución. Se usa con un ejecutable de un clic, sin servidor ni nube.
 
 🎬 [Video de presentación](https://www.youtube.com/watch?v=huNRQiAW_ss)
 
 **Primera versión: [FaceHunt](https://github.com/IvanGomezDellOsa/FaceHunt) (2025)** · `Python` `DeepFace` `FaceNet` `RetinaFace` `FastAPI` `Docker`<br>
-Sistema de reconocimiento facial en video con deep learning, con API en FastAPI e interfaz web dockerizada desplegada en Hugging Face.
+Sistema de reconocimiento facial en video con deep learning, con API en FastAPI e interfaz web en Docker.
+
+---
+
+### [SeViVe (ex Pilates All Canning)](https://github.com/IvanGomezDellOsa/PilatesAllCanning_App)
+`Flutter` `Python` `FastAPI` `PostgreSQL` `Firebase` `Docker` `Nginx`
+
+Proyecto freelance: aplicación de reservas y gestión para un estudio de pilates (franquicia), con más de 200 usuarios. La desarrollé como único programador, desde la captación del cliente y la definición de requisitos hasta la puesta en producción. Reservas con control de concurrencia para evitar sobrerreservas, créditos con vencimiento, turnos fijos con reserva automática y calendario con feriados configurables. Las cuentas creadas por la administración se unifican automáticamente con la del alumno al registrarse (por DNI), preservando historial, créditos y turnos. Backend asíncrono con Python, FastAPI y PostgreSQL; aplicación en Flutter instalable como PWA, con autenticación de Google mediante Firebase. Docker Compose y Nginx en un VPS que administro. Finalizado el desarrollo, continúo a cargo del soporte, la administración del servidor y las actualizaciones solicitadas por el cliente.
+
+🎬 [Video de presentación](https://www.youtube.com/watch?v=nI6Iz2L-hFs)
+
+---
+
+### [Navkok Security Group SRL · Sitio corporativo](https://github.com/IvanGomezDellOsa/NavkokSecurityGroup_Website)
+`Next.js` `TypeScript` `Tailwind CSS`
+
+Proyecto freelance: rediseño completo del sitio corporativo de una empresa de seguridad con más de 30 años de trayectoria y certificaciones ISO 9001, 14001 y 45001. Lo desarrollé de punta a punta (arquitectura de información, diseño UX/UI, redacción de los textos institucionales y desarrollo), con foco en un diseño de alto impacto que transmita su experiencia y sus credenciales.
+
+🌐 [Vista previa del sitio](https://navkok-website-private.vercel.app/)
 
 ---
 
@@ -112,13 +112,6 @@ Segunda versión del sitio comercial de Rugidos Fiestas Tandil, actualmente en p
 
 **Primera versión: [RugidosWebSite 2023 (Legacy)](https://github.com/IvanGomezDellOsa/RugidosWebSite-2023-Legacy)** · `HTML5` `CSS3` `JavaScript`<br>
 En producción desde 2023 hasta ser reemplazada por la versión actual. Construida sin frameworks, con deploy automático a cPanel.
-
----
-
-### [TexTok](https://github.com/IvanGomezDellOsa/TexTok---Universitario---Java)
-`Java`
-
-Motor de gestión de datos en Java puro, desarrollado como trabajo de la carrera. Implementa desde cero ABB, listas enlazadas simples y dobles, referencias cruzadas, recursión y persistencia en archivos binarios, sin frameworks ni java.util.
 
 ---
 
