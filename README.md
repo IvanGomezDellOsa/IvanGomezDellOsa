@@ -6,6 +6,10 @@
   <em>Full Stack Developer · Backend · Inteligencia Artificial Aplicada</em>
 </p>
 
+<p align="center">
+  🌐 <a href="https://www.ivangomezdellosa.com.ar"><strong>ivangomezdellosa.com.ar</strong></a>
+</p>
+
 ---
 
 Desarrollo productos de software completos, desde el diseño hasta la puesta en producción, con foco en backend e inteligencia artificial aplicada. Tengo proyectos propios y freelance en producción, con clientes y usuarios reales.
@@ -23,7 +27,7 @@ Sobre la base que me da la carrera de Ingeniería de Sistemas (lógica de progra
 
 El proyecto nace de cruzar dos datos. Una IA que simula ser una persona real inventa hasta su manera de expresarse y le atribuye frases que nunca dijo; para evitarlo, esa persona tendría que haber dejado por escrito un contexto enorme de sí misma, y casi nadie lo tiene. Leonardo es una excepción: durante toda su vida hizo una especie de *transfusión mental a papel*. El sistema consulta los 1.565 pasajes que Jean Paul Richter transcribió y tradujo en 1888.
 
-Cruzar esos datos fue el punto de partida, no el resultado. El pipeline RAG está escrito desde cero: recuperación híbrida, un filtro que decide si los cuadernos tratan el tema y la comprobación de que cada cita exista en el pasaje original. Con el mismo modelo y las mismas preguntas, una IA actuando como Leonardo inventa el **96,9%** de sus citas (156 de 161); Ask Leonardo da Vinci, **0 de 187**. Incluye además una biblioteca 3D, un museo virtual 3D y un espacio vectorial que muestra cómo una pregunta encuentra sus pasajes. Costo de operación: US$0.
+Cruzar esos datos fue el punto de partida, no el resultado. El pipeline RAG está escrito desde cero: recuperación híbrida, un filtro que decide si los cuadernos tratan el tema y la comprobación de que cada cita exista en el pasaje original. Con el mismo modelo y las mismas preguntas, una IA actuando como Leonardo inventa el **96,9%** de sus citas (156 de 161); Ask Leonardo da Vinci, **0 de 187**. Incluye además una biblioteca 3D, un museo virtual 3D y un espacio vectorial que muestra cómo una pregunta encuentra sus pasajes.
 
 🌐 [askleonardodavinci.online](https://www.askleonardodavinci.online) (ES / EN)
 
@@ -45,7 +49,7 @@ Las inversiones privadas que se anuncian en Argentina estaban dispersas en notic
 ### [Datos Pauta Oficial](https://github.com/IvanGomezDellOsa/DatosPautaOficial)
 `Python` `ETL` `SQLite` `Astro` `React` `TypeScript` `Cloudflare R2/Pages`
 
-La primera y única base unificada de pauta oficial argentina: **540.413 órdenes de publicidad** de cuatro jurisdicciones (Nación, CABA, PBA y Santa Fe), período 2003–2025, con montos deflactados por IPC para que las cifras sean comparables entre años. ETL propio en Python que incluye un **dataset exclusivo de PBA 2020–2024 reconstruido procesando más de 500 resoluciones en PDF** (datos que no existen en ningún portal de datos abiertos). Arquitectura 100% sin backend: la base SQLite (~173 MB) vive en Cloudflare R2 y el navegador consulta solo los bytes que necesita vía HTTP Range Requests (`sql.js-httpvfs`). Costo de operación: US$0.
+La primera y única base unificada de pauta oficial argentina: **540.413 órdenes de publicidad** de cuatro jurisdicciones (Nación, CABA, PBA y Santa Fe), período 2003–2025, con montos deflactados por IPC para que las cifras sean comparables entre años. ETL propio en Python que incluye un **dataset exclusivo de PBA 2020–2024 reconstruido procesando más de 500 resoluciones en PDF** (datos que no existen en ningún portal de datos abiertos). Arquitectura 100% sin backend: la base SQLite (~173 MB) vive en Cloudflare R2 y el navegador consulta solo los bytes que necesita vía HTTP Range Requests (`sql.js-httpvfs`).
 
 🌐 [datospautaoficial.com.ar](https://datospautaoficial.com.ar)
 
@@ -86,7 +90,7 @@ Proyecto freelance: rediseño completo del sitio corporativo de una empresa de s
 ### [MementoLife](https://github.com/IvanGomezDellOsa/MementoLife)
 `TypeScript` `Chrome Extensions` `Manifest V3` `SVG` `Vitest` `Playwright`
 
-Extensión de Chrome, publicada en la Chrome Web Store, que reemplaza la pestaña nueva por una grilla con las semanas de la vida calculada a partir de la fecha de nacimiento, y suma una efeméride histórica para cada día del año. Interfaz completa en 6 idiomas, sin conexiones de red y con un solo permiso. TypeScript estricto, sin framework ni bundler: la grilla de 4.160 semanas se dibuja con 7 nodos del DOM en vez de uno por celda (1,30 ms contra 10,00 ms).
+Extensión de Chrome, publicada en la Chrome Web Store, que reemplaza la pestaña nueva por una grilla con las semanas de la vida calculada a partir de la fecha de nacimiento, y suma una efeméride histórica para cada día del año. Interfaz completa en 6 idiomas, sin conexiones de red y con un solo permiso. TypeScript estricto, sin framework ni bundler: la grilla de 4.160 semanas se dibuja con 3 trazados SVG en vez de un elemento por celda (1,30 ms contra 10,00 ms).
 
 🧩 [Chrome Web Store](https://chromewebstore.google.com/detail/mementolife/eackmngdibobdeciapcedkmjoecaiblp)
 
@@ -106,7 +110,7 @@ Aplicación de fotomatón táctil con editor multitáctil de imágenes, cuenta r
 ### [RugidosWebSite](https://github.com/IvanGomezDellOsa/RugidosWebSite)
 `Next.js` `TypeScript` `Tailwind CSS` `Framer Motion`
 
-Segunda versión del sitio comercial de Rugidos Fiestas Tandil, actualmente en producción. Rediseño completo orientado a una experiencia visual moderna: animaciones, transiciones, galería interactiva y diseño responsivo. Optimizado para performance en mobile.
+Sitio comercial de Rugidos Fiestas Tandil, en producción, mobile first y optimizado para búsquedas locales. Rediseño integral en 2026, con diseño UX/UI propio. Lighthouse sobre el sitio en producción: 95 de rendimiento en móvil y 99 en escritorio.
 
 🌐 [rugidosfiestas.com.ar](https://www.rugidosfiestas.com.ar/)
 
@@ -117,5 +121,6 @@ En producción desde 2023 hasta ser reemplazada por la versión actual. Construi
 
 ## 📬 Contacto
 
+- **Web:** [ivangomezdellosa.com.ar](https://www.ivangomezdellosa.com.ar)
 - **Email:** ivangomezdellosa@gmail.com
 - **LinkedIn:** [linkedin.com/in/ivangomezdellosa](https://www.linkedin.com/in/ivangomezdellosa/)

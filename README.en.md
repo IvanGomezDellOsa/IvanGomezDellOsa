@@ -6,6 +6,10 @@
   <em>Full Stack Developer · Backend · Applied Artificial Intelligence</em>
 </p>
 
+<p align="center">
+  🌐 <a href="https://www.ivangomezdellosa.com.ar"><strong>ivangomezdellosa.com.ar</strong></a>
+</p>
+
 ---
 
 I build complete software products, from design to production, with a focus on backend and applied artificial intelligence. I have personal and freelance projects in production, with real clients and users.
@@ -23,7 +27,7 @@ Building on the foundation my Systems Engineering studies give me (programming l
 
 The project comes from putting two facts together. An AI that simulates a real person makes up even the way they express themselves and attributes to them phrases they never said; to avoid it, the person would have had to leave behind an enormous written context of themselves, and almost nobody has anything like that. Leonardo is an exception: throughout his life he made a kind of *mind transfusion onto paper*. The system searches the 1,565 passages that Jean Paul Richter transcribed and translated in 1888.
 
-Putting those facts together was the starting point, not the result. The RAG pipeline is written from scratch: hybrid retrieval, a filter that decides whether the notebooks cover the subject, and a check that every quotation exists in the original passage. With the same model and the same questions, an AI acting as Leonardo makes up **96.9%** of its quotations (156 of 161); Ask Leonardo da Vinci, **0 of 187**. It also includes a 3D library, a 3D virtual museum and a vector space that shows how a question finds its passages. Operating cost: US$0.
+Putting those facts together was the starting point, not the result. The RAG pipeline is written from scratch: hybrid retrieval, a filter that decides whether the notebooks cover the subject, and a check that every quotation exists in the original passage. With the same model and the same questions, an AI acting as Leonardo makes up **96.9%** of its quotations (156 of 161); Ask Leonardo da Vinci, **0 of 187**. It also includes a 3D library, a 3D virtual museum and a vector space that shows how a question finds its passages.
 
 🌐 [askleonardodavinci.online](https://www.askleonardodavinci.online/en) (EN / ES)
 
@@ -45,7 +49,7 @@ The private investments announced in Argentina were scattered across news outlet
 ### [Datos Pauta Oficial](https://github.com/IvanGomezDellOsa/DatosPautaOficial)
 `Python` `ETL` `SQLite` `Astro` `React` `TypeScript` `Cloudflare R2/Pages`
 
-The first and only unified database of Argentine official advertising spending: **540,413 advertising orders** from four jurisdictions (Nación, CABA, PBA and Santa Fe), covering 2003–2025, with amounts adjusted for inflation (CPI) so the figures are comparable across years. A custom ETL in Python that includes an **exclusive PBA 2020–2024 dataset reconstructed by processing more than 500 PDF resolutions** (data that does not exist in any open data portal). A 100% backendless architecture: the SQLite database (~173 MB) lives on Cloudflare R2 and the browser queries only the bytes it needs via HTTP Range Requests (`sql.js-httpvfs`). Operating cost: US$0.
+The first and only unified database of Argentine official advertising spending: **540,413 advertising orders** from four jurisdictions (Nación, CABA, PBA and Santa Fe), covering 2003–2025, with amounts adjusted for inflation (CPI) so the figures are comparable across years. A custom ETL in Python that includes an **exclusive PBA 2020–2024 dataset reconstructed by processing more than 500 PDF resolutions** (data that does not exist in any open data portal). A 100% backendless architecture: the SQLite database (~173 MB) lives on Cloudflare R2 and the browser queries only the bytes it needs via HTTP Range Requests (`sql.js-httpvfs`).
 
 🌐 [datospautaoficial.com.ar](https://datospautaoficial.com.ar)
 
@@ -86,7 +90,7 @@ Freelance project: a complete redesign of the corporate website of a security co
 ### [MementoLife](https://github.com/IvanGomezDellOsa/MementoLife)
 `TypeScript` `Chrome Extensions` `Manifest V3` `SVG` `Vitest` `Playwright`
 
-A Chrome extension, published on the Chrome Web Store, that replaces the new tab with a grid of the weeks of your life calculated from your date of birth, plus a historical event for every day of the year. Full interface in 6 languages, no network connections and a single permission. Strict TypeScript with no framework or bundler: the 4,160-week grid is drawn with 7 DOM nodes instead of one per cell (1.30 ms versus 10.00 ms).
+A Chrome extension, published on the Chrome Web Store, that replaces the new tab with a grid of the weeks of your life calculated from your date of birth, plus a historical event for every day of the year. Full interface in 6 languages, no network connections and a single permission. Strict TypeScript with no framework or bundler: the 4,160-week grid is drawn with 3 SVG paths instead of one element per cell (1.30 ms versus 10.00 ms).
 
 🧩 [Chrome Web Store](https://chromewebstore.google.com/detail/mementolife/eackmngdibobdeciapcedkmjoecaiblp)
 
@@ -106,7 +110,7 @@ A touch photobooth application with a multitouch image editor, animated countdow
 ### [RugidosWebSite](https://github.com/IvanGomezDellOsa/RugidosWebSite)
 `Next.js` `TypeScript` `Tailwind CSS` `Framer Motion`
 
-Second version of the commercial website of Rugidos Fiestas Tandil, currently in production. A complete redesign oriented toward a modern visual experience: animations, transitions, interactive gallery and responsive design. Optimized for mobile performance.
+Commercial website of Rugidos Fiestas Tandil, in production, mobile first and optimized for local search. Full redesign in 2026, with my own UX/UI design. Lighthouse on the live site: 95 performance on mobile and 99 on desktop.
 
 🌐 [rugidosfiestas.com.ar](https://www.rugidosfiestas.com.ar/)
 
@@ -117,5 +121,6 @@ In production from 2023 until it was replaced by the current version. Built with
 
 ## 📬 Contact
 
+- **Web:** [ivangomezdellosa.com.ar](https://www.ivangomezdellosa.com.ar)
 - **Email:** ivangomezdellosa@gmail.com
 - **LinkedIn:** [linkedin.com/in/ivangomezdellosa](https://www.linkedin.com/in/ivangomezdellosa/)
